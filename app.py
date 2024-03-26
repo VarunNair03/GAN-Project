@@ -70,7 +70,7 @@ with st.container(border=True):
         options = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
         choice = st.selectbox('Select a Category', options)
     with c2:
-        model_options = ['Adam', 'RMSprop', 'SGD', 'Adamax']
+        model_options = ['Adam', 'RMSProp', 'SGD', 'Adamax']
         model = st.selectbox('Select an Optimizer', model_options)
     with c3:
         number = st.slider('Number of Images', 0, 10, 1)
