@@ -79,7 +79,7 @@ with st.container(border=True):
     st.header('Generated Images')
     if choice is not None:
         time.sleep(0.2)
-        gen_model = load_model(f'models\{model}_Gen.keras')
+        gen_model = load_model(f'models/{model}_Gen.keras')
         time.sleep(0.2)
         plot_images(number, choice)
         time.sleep(0.2)
