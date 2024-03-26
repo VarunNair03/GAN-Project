@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import time
 
 # loading the models
-gen_model = load_model('models\Adam_Gen.keras')
-clf = load_model('models\Classifier.keras')
+gen_model = load_model('models/Adam_Gen.keras')
+clf = load_model('models/Classifier.keras')
 
 
 # '''
